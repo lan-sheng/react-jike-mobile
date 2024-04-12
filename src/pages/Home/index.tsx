@@ -7,7 +7,8 @@ const Home = () => {
   return (
     <div>
       <div className="tabContainer">
-        <Tabs>
+        {/* <Tabs defaultActiveKey={'' + channels[0]?.id}> */}
+        <Tabs defaultActiveKey={'0'}>
           {channels.map(item => (
             <Tabs.Tab title={item.name} key={item.id}>
               <div className="listContainer">
