@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const httpInstance = axios.create({
-  baseURL: 'http://localhost:3000/',
+  baseURL: 'http://geek.itheima.net/v1_0',
   timeout: 10000
 })
 // 拦截器
